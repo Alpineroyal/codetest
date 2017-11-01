@@ -1,0 +1,50 @@
+/*
+    Created on : October 31st 2017
+    Author     : Jason Verbiest 
+    
+    Basic CSS for the jumbo interactive code test.
+*/
+html {
+  font-family:Century Gothic, Arial, Sans-Serif;
+  color: #464646;
+  font-size: 1em;
+}
+
+html,body {
+  height:100%;
+}
+
+.game_types {
+    width: 100%;
+}
+
+table {
+    border: 1px solid black;
+}
+
+th {
+    height: 50px;
+    text-align: center;
+    vertical-align: top;
+    padding: 10px;
+    background-color: #4c7daf;
+    color: white;    
+}
+
+td {
+    font-size: 14px;
+    height: 50px;
+    text-align: center;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.show_options {
+    height: 25px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.notes {
+    font-size: 10px;
+}
