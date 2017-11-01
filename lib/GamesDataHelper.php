@@ -44,7 +44,7 @@ class GamesDataHelper {
         $aNewProcessedData = array();
         
         foreach ( $this->aRawGamesData as $aRawGamesRow ) :
-            
+
             // This array will be used in the top level loop through the games, we just need the name and key
             $aNewGamesListAndKeys[$aRawGamesRow->key]['name'] = $aRawGamesRow->name;
             $aNewGamesListAndKeys[$aRawGamesRow->key]['key'] = $aRawGamesRow->key;            

@@ -18,7 +18,6 @@
 <?PHP
 include_once('config/Init.php');
 setlocale(LC_MONETARY, 'en_AU');
-
 $oGameDataHelper = new GamesDataHelper();
 
 $aGameList = $oGameDataHelper->getGamesList();
@@ -36,8 +35,6 @@ $aProcessedGamesData = $oGameDataHelper->getGamesDataForDisplay();
                 
             <div>Ways of playing the <?PHP echo $aGameRow['name'];?>:</div><br/>
 <?PHP 
-            
-
             // Loop through the game types
             foreach ( $aProcessedGamesData[$sKey]['game_types'] as $aGameType ) :
 ?>                     
